@@ -3,7 +3,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+# @app.route("/") hangi path kullanılacaksa o eklenir.
+@app.route("/b")
 def hello():
     return "Hello World from alperenokur.com/file"
 
