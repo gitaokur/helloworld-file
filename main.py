@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # @app.route("/") hangi path kullanılacaksa o eklenir.
-@app.route("/b")
+@app.route("/file")
 def hello():
     return "Hello World from alperenokur.com/file"
 
